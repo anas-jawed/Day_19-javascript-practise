@@ -39,20 +39,20 @@
 // Example : country = ["Australia", "Germany", "United States of America"] output : 
 //  "United States of America"
 
-let country = ["Australia","United States of America","germany"];
+// let country = ["Australia","United States of America","germany"];
 
-function longestName(country){
-    let ansidx = 0;
-    for(let i = 0; i<country.length; i++){
-        let ansLen = country[ansidx].length;
-        let currLen = country[i].length;
-        if(currLen > ansLen){
-            ansidx = i;
-        }
-    }
-    return country[ansidx];
-}
+// function longestName(country){
+//     let ansidx = 0;
+//     for(let i = 0; i<country.length; i++){
+//         let ansLen = country[ansidx].length;
+//         let currLen = country[i].length;
+//         if(currLen > ansLen){
+//             ansidx = i;
+//         }
+//     }
+//     return country[ansidx];
+// }
 
-let result = longestName(country);
+// let result = longestName(country);
 
-console.log(result);
+// console.log(result);
